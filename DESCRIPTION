@@ -11,3 +11,13 @@ Description: What the package does (one paragraph).
 License: What license it uses
 Encoding: UTF-8
 LazyData: true
+Suggests: 
+    testthat (>= 2.1.0)
+Depends: 
+    DBI
+Imports: 
+    dplyr,
+    tidyr,
+    glue,
+    withr
+RoxygenNote: 7.1.0
